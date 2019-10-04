@@ -1,24 +1,23 @@
-#
 # Predicting Climbing Success on Himalayan Expeditions
 
 This project uses historic data of expeditions in the Himalayas from 1905 to 2018 to predict the success of individual climbers reaching the summit.
 
-Go to Report: [PDF](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/Report_Himalayan_Summit_Success.pdf)
+Go to Report: [PDF](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/Report_Himalayan_Summit_Success.pdf)  
 and presentation: [PDF](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/Presentation_Himalayan_Summit_Success.pdf)
 
 #
 # Directory Content
 
-- ****** Database guide**: The database guide describing the data and how to download it, is here:
+- **Database guide**: The database guide describing the data and how to download it, is here:
   - [Himalayan\_Database\_Guide.pdf](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/Himalayan_Database_Guide.pdf)
-- ****** Input data**: All the data is stored in this directory. The datasets used are:
-  - [csv](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/peaks.csv)
-  - [csv](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/expeditions.csv)
-  - [csv](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/members.csv)
-- ****** Cleaned data**: The data was cleaned and merged, then pre-processed for machine learning.
+- **Input data**: All the data is stored in this directory. The datasets used are:
+  - [peaks.csv](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/peaks.csv)
+  - [expeditions.csv](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/expeditions.csv)
+  - [members.csv](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/members.csv)
+- **Cleaned data**: The data was cleaned and merged, then pre-processed for machine learning.
   - [DF\_Himalayas\_Expeditions.csv](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/DF_Himalayas_Expeditions.csv)
   - [DF\_Himalayas\_Expeditions\_MLready.csv](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/DF_Himalayas_Expeditions_MLready.csv)
-- ****** Notebooks**: The notebooks for the data wrangling, exploration and model generating needs running in the following sequence:
+- **Notebooks**: The notebooks for the data wrangling, exploration and model generating needs running in the following sequence:
   - [Himalayan\_expeditions\_cleaning.ipyn](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/Himalayan_expeditions_cleaning.ipynb)
   - [Himalayan\_expeditions\_story.ipynb](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/Himalayan_expeditions_story.ipynb)
   - [Himalayan\_expeditions\_stats.ipynb](https://github.com/jacqpool/Springboard/blob/master/expedition_success_himalayas/Himalayan_expeditions_stats.ipynb)
